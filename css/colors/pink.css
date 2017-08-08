@@ -1,0 +1,185 @@
+/*=== MIXINS ===*/
+/*=== VARIABLES ===*/
+/*=== MEDIA QUERY ===*/
+/*=== Blue ===*/
+.topBar ul.pull-right li:nth-child(2) .dropdown-menu li .input-group .form-control:focus,
+.topBar ul.pull-right li:nth-child(2) .dropdown-menu li .input-group .input-group-addon,
+.footer,
+.footer .newsletter .input-group .input-group-addon:hover,
+.tp-caption.rs-caption-4 .btn,
+.filterArea .btn-group .btn-default:hover,
+.filterArea .btn-group .btn-default.active,
+.productListSingle .media .media-body .btn-group .btn-default:hover,
+.productListSingle .media .media-body .btn-group .btn-default:focus,
+.cartListInner .table-responsive .table thead tr,
+.blogPage .pagination li a:hover,
+.blogPage .pagination li.active a,
+.orderBox .table-responsive .table thead tr,
+.orderBox .table-responsive .table tbody tr td .btn-default:hover,
+.footer .newsletter .input-group .input-group-addon {
+  border-color: #f45c5d;
+}
+
+.topBar ul.pull-right li:last-child a,
+.topBar ul.pull-right li:last-child a:hover,
+.topBar ul.pull-right li:last-child ul.dropdown-menu,
+.navbar-default .navbar-header .navbar-toggle,
+.topBar ul.pull-right li:nth-child(2) .dropdown-menu li .input-group .input-group-addon,
+.footer .newsletter .input-group .input-group-addon:hover,
+.tp-caption.rs-caption-4 .btn:hover,
+.form-field .btn-primary, .form-body .panel .panel-body .btn-primary,
+.signUp .panel .panel-body .btn-primary,
+.lostPassword .panel .panel-body .btn-primary,
+.logIn .panel .panel-body .btn-primary,
+.commentsForm .btn-primary,
+#login .modal-dialog .modal-content .modal-body .btn-primary,
+#signup .modal-dialog .modal-content .modal-body .btn-primary,
+.form-body .panel .panel-heading,
+.signUp .panel .panel-heading,
+.lostPassword .panel .panel-heading,
+.logIn .panel .panel-heading,
+.stepsPage form .checkboxArea input[type=checkbox]:not(old):checked + label span,
+.quick-view .modal-dialog .modal-content .modal-body .media .media-body .btn-area .btn-primary,
+.singleProduct .media .media-body .btn-area .btn-primary,
+#login .modal-dialog .modal-content .modal-header,
+#signup .modal-dialog .modal-content .modal-header,
+.sideBar .panel .panel-heading,
+.filterArea .btn-group .btn-default:hover,
+.filterArea .btn-group .btn-default.active,
+.productListSingle .media .media-body .btn-group .btn-default:hover,
+.productListSingle .media .media-body .btn-group .btn-default:focus,
+.cartListInner .table-responsive .table thead tr th,
+.orderBox .table-responsive .table thead tr th,
+.cartListInner .checkBtnArea .btn-primary,
+.notFound .btn-default,
+.blogPage .pagination li a:hover,
+.blogPage .pagination li.active a,
+.stepsWrapper .innerWrapper .well .pager li a,
+.progress-wizard .progress-wizard-step .progress-wizard-dot,
+.progress-wizard .progress-wizard-step .progress .progress-bar,
+.setp5 .thanksContent .thanksInner .well,
+.userProfile .btn-group a:hover,
+.userProfile .btn-group a.active,
+.userProfile .innerWrapper .list-inline li .btn-lg:hover,
+.userProfile .innerWrapper.singleOrder .btn-group .btn-default,
+.orderBox .table-responsive .table tbody tr td .btn-default:hover,
+.profile .thumbnail .caption .btn-primary,
+.profile .form-horizontal .form-group .btn-primary,
+.count-down #simple_timer .table-cell .tab-val,
+.aboutUsInfo .list-unstyled li:before,
+.stepsWrapper .innerWrapper .well .pager li a:hover,
+.stepsWrapper .innerWrapper .well .pager li.previous a:hover {
+  background-color: #f45c5d;
+}
+
+.navbar-default .navbar-collapse li a:hover,
+.navbar-default .navbar-collapse li a.focus,
+.navbar-default .navbar-collapse li.dropdown .dropdown-menu li a:hover,
+.navbar-default .navbar-collapse li.active a,
+.navbar-default .navbar-collapse li.active a:focus,
+.navbar-default .navbar-collapse li.active a:hover,
+.navbar-default .navbar-collapse li.active.dropdown .dropdown-menu li a:hover,
+.navbar-default .navbar-collapse li.dropdown.open a:hover,
+.navbar-default .navbar-collapse li.dropdown.open a.focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
+.footer .newsletter .input-group .input-group-addon i,
+.tp-caption.rs-caption-4 .btn i,
+.imageBox .productImage .productMasking ul li a:hover i,
+.whiteSection .featuredProducts .slide .productImage .productMasking ul li a:hover i,
+.mainContent .featuredProducts .slide .productImage .productMasking ul li a:hover i,
+.productsContent .productBox .productImage .productMasking ul li a:hover i,
+.masking-btn:hover,
+.whiteSection .featuredCollection .thumbnail .imageWrapper .masking .viewBtn:hover,
+.mainContent .featuredCollection .thumbnail .imageWrapper .masking .viewBtn:hover,
+.productListSingle .media .pull-left .maskingImage .viewBtn:hover,
+.whiteSection .featuredCollection .thumbnail:hover .caption h4,
+.mainContent .featuredCollection .thumbnail:hover .caption h4,
+.form-field .btn-link,
+.form-body .panel .panel-body .btn-link,
+.signUp .panel .panel-body .btn-link,
+.lostPassword .panel .panel-body .btn-link,
+.logIn .panel .panel-body .btn-link,
+.commentsForm .btn-link,
+#login .modal-dialog .modal-content .modal-body .btn-link,
+#signup .modal-dialog .modal-content .modal-body .btn-link,
+.stepsPage form .checkboxArea input[type=checkbox]:not(old):checked + label span,
+.sub-list-item:hover,
+.navbar-side-collapse .side-nav li .collapseItem li a:hover,
+.sidebar-list li a:hover,
+.navbar-side-collapse .side-nav li a:hover,
+.filterNormal .list-unstyled li a:hover,
+.productListSingle .media:hover .media-heading,
+.productListSingle .media:hover h3,
+.cartListInner .table-responsive .table tbody tr td .close,
+.orderBox.myAddress .table-responsive .table tbody tr td .close,
+.notFound h1,
+.commentsArea .media .media-body .btn-link:hover,
+.userProfile .innerWrapper h3 span,
+.orderBox .table-responsive .table tbody tr td:first-child,
+.orderBox.myAddress.wishList .table-responsive .table tbody tr td:nth-child(4),
+.navbar-default .navbar-collapse li.dropdown .dropdown-menu li.active a {
+  color: #f45c5d;
+}
+
+.step-drop .sbOptions a:hover,
+.filterArea .sbOptions a:hover,
+.quick-drop .sbOptions a:hover {
+  color: #f45c5d !important;
+}
+
+.masking-hover,
+.imageBox .productImage .productMasking,
+.whiteSection .featuredProducts .slide .productImage .productMasking,
+.mainContent .featuredProducts .slide .productImage .productMasking,
+.productsContent .productBox .productImage .productMasking,
+.whiteSection .featuredCollection .thumbnail .imageWrapper .masking,
+.mainContent .featuredCollection .thumbnail .imageWrapper .masking,
+.productListSingle .media .pull-left .maskingImage {
+  background-color: rgba(244, 92, 93, 0.9);
+}
+
+.fullscreenbanner-container .tp-bullets.preview4 {
+  background: #f37d7e;
+  background: -webkit-linear-gradient(legacy-direction(to bottom), #f37d7e 0%, #f37d7e 50%, #f45c5d 51%, #f45c5d 100%);
+  background: linear-gradient(to bottom, #f37d7e 0%, #f37d7e 50%, #f45c5d 51%, #f45c5d 100%);
+}
+
+.fullscreenbanner-container .tp-bullets.preview4::before {
+  background: #f37d7e;
+  background: -webkit-linear-gradient(legacy-direction(135deg), #f37d7e 0%, #f37d7e 50%, #f45c5d 51%, #f45c5d 100%);
+  background: linear-gradient(135deg, #f37d7e 0%, #f37d7e 50%, #f45c5d 51%, #f45c5d 100%);
+}
+
+.fullscreenbanner-container .tp-bullets.preview4::after {
+  background: #f37d7e;
+  background: -webkit-linear-gradient(legacy-direction(135deg), #f37d7e 0%, #f37d7e 50%, #f45c5d 51%, #f45c5d 100%);
+  background: linear-gradient(135deg, #f37d7e 0%, #f37d7e 50%, #f45c5d 51%, #f45c5d 100%);
+}
+
+.darkSection .btn-default {
+  border: 2px solid rgba(244, 92, 93, 0.5);
+}
+.darkSection .btn-default:hover {
+  background-color: #f45c5d;
+  border-color: #f45c5d;
+}
+
+.cartListInner .updateArea .btn:hover {
+  background-color: #f45c5d;
+  border-color: #f45c5d;
+}
+
+.form-field .btn-link:hover,
+.form-body .panel .panel-body .btn-link:hover,
+.signUp .panel .panel-body .btn-link:hover,
+.lostPassword .panel .panel-body .btn-link:hover,
+.logIn .panel .panel-body .btn-link:hover,
+.commentsForm .btn-link:hover,
+#login .modal-dialog .modal-content .modal-body .btn-link:hover,
+#signup .modal-dialog .modal-content .modal-body .btn-link:hover {
+  color: #f37d7e;
+}
+
+/*# sourceMappingURL=pink.css.map */

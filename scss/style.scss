@@ -1,0 +1,34 @@
+// scss file
+
+/* ====== index =====
+1. COMMON
+2. HOME
+	2.1 HEADER
+		2.1.1 TOPBAR
+		2.1.2 NAVBAR
+	2.2 FOOTER
+	2.3 BANNER
+3. MODAL
+4. PAGE HEADER
+5. Button
+6. Products
+7. About Us
+8. Portfolio
+9. Testimonial
+10.Form
+
+===================== */
+@import 'partials/mixins';
+@import 'partials/variables';
+@import 'partials/media-query';
+@import 'reset';
+@import 'common';
+@import 'home';
+@import 'form';
+@import 'modal';
+@import 'page-header';
+@import 'button';
+@import 'products';
+@import 'about-us';
+@import 'portfolio';
+@import 'testimonial';

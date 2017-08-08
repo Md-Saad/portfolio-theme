@@ -1,0 +1,20 @@
+/*=== 10. CONTACT FORM ===*/
+.contact-area{
+    .contact-info{
+        margin: $margin 0;
+        p{
+            margin-bottom: $margin - 5;
+            i{
+                margin-right: $margin - 5;
+            }
+        }
+    }
+}
+.form-control{
+    min-height: 40px;
+    &:focus{
+        border-color: $primary-color;
+        @include box-shadow(0, 0, 0, transparent);
+        
+    }
+}

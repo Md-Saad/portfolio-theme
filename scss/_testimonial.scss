@@ -1,0 +1,33 @@
+/*=== 9. TESTIMONIAL ===*/
+.testimonial-area {
+  @include background-image;
+  background: url("../images/testimonial.png");
+  position: relative;
+  img {
+    display: inline-block;
+    border-radius: 100% !important;
+  }
+  p {
+    color: $text-light;
+    margin: $margin * 1.5;
+  }
+  h4 {
+    color: $primary-color;
+  }
+  span {
+    color: $text-light;
+  }
+  .owl-item{
+    margin-bottom: $margin * 3;
+  }
+}
+
+.owl-theme {
+  .owl-controls {
+    .owl-page {
+      span {
+        background: $primary-color;
+      }
+    }
+  }
+}

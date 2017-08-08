@@ -1,0 +1,31 @@
+/*=== VARIABLES ===*/
+$primary-color:#00C5CB;
+$primary-color-light:#97CCCD;
+$primary-color-lightess:#92d5d9;
+$primary-color-lighter: #47aeb5;
+
+$text-color: #111111;
+$text-light: #fff;
+$text-shadow: #36465d;
+$text-link: $primary-color;
+
+$navbar-bg:#1a1a1a;
+
+$facebook-color:#46639f;
+$google-plus-color:#d6513e;
+$twitter-color:#0084b4;
+$dribbble-color:#c73b6f;
+$behance-color:#003ECB;
+$github-color: #24292E;
+
+$dark-bg:#EAE9E6;
+$light-bg:#f8f8f8;
+
+$padding: 10px;
+$margin: 10px;
+$font-size: 12px;
+
+
+@function tint($primary-color, $percentage) {
+  @return mix(white, $primary-color, $percentage);
+}

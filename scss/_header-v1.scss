@@ -1,0 +1,66 @@
+/*=== 2.1 HEADER ===*/
+%link-before{
+  opacity: 1;
+  width: 100%;
+  left: 0;
+}
+.navbar-main{
+  background-color: transparent;
+  @include add-border(1px, $navbar-bg, bottom);
+  @include mobile{
+    background-color: $navbar-bg;
+  }
+  @include mobile-xs{
+    background-color: $navbar-bg;
+    
+  }
+  .navbar-nav{
+    li{
+      a{
+        color:$text-light;
+        font-size: $font-size+2px;
+				text-transform: uppercase;
+        font-weight: 600;
+        position: relative;
+        @include transition(all 0.5s ease-in-out);
+        &:before{
+          @extend %after-before;
+          left: 50%;
+          bottom: 0;
+          opacity: 0;
+          width: 0;
+          height: 2px;
+          @include transition(all 0.5s ease-in-out);
+          background: $text-link;
+        }
+        &:hover{
+          color: $text-link;
+          &:before{
+             @extend %link-before;
+          }
+        }
+      }
+      &.active{
+        a, a:focus, a:hover{
+          background-color: transparent;
+          color: $text-link;
+          &:before{
+            @extend %link-before;
+          }
+        }
+      }
+    }
+  }
+  .navbar-toggle{
+    .icon-bar{
+      background-color:$text-light;
+    }
+    &:hover, &:focus{
+       background-color:$text-color;
+    }
+  }
+}
+.navbar-fixed{
+  background-color: $navbar-bg;
+  border: none;
+}

@@ -1,0 +1,208 @@
+/* ====== index =====
+1. COMMON
+2. HOME
+	2.1 HEADER
+		2.1.1 TOPBAR
+		2.1.2 NAVBAR
+	2.2 FOOTER
+		2.2.1 MAIN FOOTER
+		2.2.2 COPY RIGHT
+	2.3 BANNER
+3. FORM
+4. MODAL
+5. PAGE HEADER
+6. SIDEBARS
+7. PRODUCTS
+8. GENERIC CONTENT
+9. 404 PAGE
+10. BLOG
+11. ABOUT US
+12. STEPS
+13. USER PROFILE
+14. COMMING SOON
+
+===================== */
+/*=== MIXINS ===*/
+/*=== VARIABLES ===*/
+/*=== MEDIA QUERY ===*/
+* {
+  outline: 0;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #252525;
+  font-weight: 400; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style-type: none; }
+
+p {
+  font-size: 12px;
+  color: #252525;
+  font-weight: 400;
+  line-height: 18px; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oxygen', sans-serif;
+  text-transform: uppercase;
+  color: #252525;
+  margin-top: 0; }
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 25px; }
+
+h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 25px; }
+
+/*=== 1.COMMON ===*/
+.container {
+  width: 100%; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+      width: 450px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+      width: 750px; } }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+.btn {
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  padding: 9px 0;
+  outline: 0 !important; }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .btn {
+      font-size: 15px;
+      padding: 13px 0; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .btn {
+      font-size: 12px;
+      padding: 8px 0; } }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .btn {
+      font-size: 14px;
+      padding: 12px 0; } }
+  @media (min-width: 1200px) {
+    .btn {
+      font-size: 15px;
+      padding: 15px 0; } }
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; }
+
+a {
+  color: #d9d9d9;
+  text-decoration: none !important; }
+
+a:hover, a:focus {
+  color: #a7a7a7;
+  outline: 0; }
+
+.testimonial-area, .counter-area {
+  padding: 100px 0px;
+  background: transparent;
+  background: url("http://www.uigrid.com/html/coder-bits/assets/img/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*================= 2. HOME ==================*/
+/*=== 2.1 HEADER ===*/
+/*=== 2.2 FOOTER ===*/
+/*=== 2.2.1 MAIN FOOTER ===*/
+/*=== 2.2.2 COPY RIGHT ===*/
+.copyRight {
+  display: block;
+  width: 100%;
+  min-height: 53px;
+  background-color: #101010; }
+  .copyRight p {
+    color: #acacac;
+    margin-bottom: 0; }
+    @media only screen and (max-width: 479px) {
+      .copyRight p {
+        text-align: center;
+        line-height: 45px;
+        font-size: 8px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .copyRight p {
+        text-align: center;
+        line-height: 45px;
+        font-size: 12px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .copyRight p {
+        text-align: left;
+        line-height: 53px; } }
+  @media only screen and (max-width: 479px) {
+    .copyRight ul {
+      text-align: center; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .copyRight ul {
+      text-align: center; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .copyRight ul {
+      text-align: right; } }
+  .copyRight ul li a {
+    display: block;
+    line-height: 53px;
+    font-size: 14px; }
+
+/*=== 2.3 BANNER ===*/
+.banner-area {
+  background-image: url("http://www.uigrid.com/html/coder-bits/assets/img/cover.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-position: center 0px; }
+  .banner-area .banner-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: table; }
+    .banner-area .banner-wrapper .banner-content {
+      display: table-cell;
+      vertical-align: middle; }
+
+/*=== 3. FORM ===*/
+/*=== 4. MODAL ===*/
+/*=== 5. PAGE HEADER ===*/
+/*=== 6. SIDEBARS ===*/
+/*=== 7. PRODUCTS ===*/
+/*=== 8. GENERIC CONTENT ===*/
+/*=== 9. 404 PAGE ===*/
+/*=== 10. BLOG ===*/
+/*=== 11. ABOUT US ===*/
+/*=== 12. STEPS ===*/
+/*=== 13. USER PROFILE ===*/
+/*=== 14. COMMING SOON ===*/

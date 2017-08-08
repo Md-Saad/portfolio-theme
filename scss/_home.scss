@@ -1,0 +1,85 @@
+/*================= 2. HOME ==================*/
+
+@import 'header-v1';
+@import 'footer';
+
+/*=== 2.3 BANNER ===*/
+
+.banner-area {
+  background-image: url('../images/banner.jpg');
+  @include background-image;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-position: center 0px;
+  padding: 0;
+  .banner-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: table;
+    .banner-content {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  a.scroll-down {
+    @extend %scroll;
+    right: auto;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  p {
+    color: $text-light;
+    font-size: $font-size * 2;
+    text-transform: capitalize;
+    margin-bottom: $margin * 3;
+    @include mobile-xs{
+      font-size: $font-size + 4;
+      padding-bottom:0;
+    }
+  }
+  .btn {
+    font-weight: 600;
+    i {
+      font-size: $font-size + 6px;
+      margin-left: $margin - 5;
+    }
+  }
+}
+
+.banner-title {
+  font-size: $font-size * 5;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: $font-size * 6;
+  color: $text-light;
+  @include text-shadow(0px, 5px, 10px, $text-shadow);
+  padding-bottom: $padding * 2;
+  @include mobile{
+    font-size: $font-size * 3;
+    line-height: $font-size * 4;
+  }
+  @include mobile-xs{
+    font-size: $font-size * 2;
+    line-height: $font-size * 3;
+    padding-bottom:0;
+  }
+}
+
+.bounce {
+  @include animation(bounce, 1.5s infinite)
+}
+@include keyframes(bounce) {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+

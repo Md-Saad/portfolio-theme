@@ -1,0 +1,65 @@
+/*=== 6. PRODUCTS ===*/
+.service-area{
+    padding-bottom: $padding * 5;
+    .service-content{
+        text-align: center;
+        padding: $padding * 2;
+        margin-bottom: $margin * 2;
+        background: $dark-bg;
+        h4{
+          @include transition(all 0.5s ease-in-out);
+        }
+        .service-icon {
+            @extend %social-icon;
+            display: inline-block;
+            margin-bottom: $margin;
+            margin-right: 0;
+            color: $primary-color;
+            @include add-border(1px, $primary-color, all);
+            @include transition(all 0.5s ease-in-out);
+        }
+        &:hover{
+          h4{
+            color: $primary-color;
+          }
+          .service-icon{
+            color: $text-light;
+            background-color: $primary-color
+          }
+        }
+    }
+}
+.counter-area{
+    padding: $padding * 10 0;
+    background: url("../images/project-counter.jpg");
+    @include background-image;
+  .counter-wrap{
+    padding: $padding;
+    @include add-border(1px, $primary-color, all);
+    @include transition(all 0.5s ease-in-out);
+    .counter-icon{
+      color: $primary-color;
+      padding: $padding + 5px 0;
+      font-size: $font-size * 1.25;
+    }
+    .counter{
+      font-size:$font-size * 2.5;
+      font-weight: 500;
+      color: $text-light;
+      margin: $margin + 5 0;
+      display: block;
+    }
+    .counter-title{
+      @extend .counter-icon;
+      font-size: $font-size * 1.7;
+      margin: 0;
+    }
+    @include mobile{
+      margin-bottom: $margin;
+    }
+    @include mobile-xs{
+      margin-bottom: $margin;
+    }
+  }
+}
+

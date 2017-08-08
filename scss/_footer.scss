@@ -1,0 +1,20 @@
+/*=== 2.2 FOOTER ===*/
+%scroll{
+  font-size: 36px;
+  color: $text-link;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+footer{
+  padding: $padding+5px 0;
+  position: relative;
+  @include add-border(1px, $primary-color-light, top);
+  .scroll-down {
+    @extend %scroll;
+  }
+  p{
+    text-transform: capitalize;
+  }
+}
+

@@ -1,0 +1,215 @@
+
+/* CSS Document */
+
+/*............................................ Start Select Box ....................................*/
+
+.sbHolder { width:96px; height:33px; float:left; position:relative; font-family: 'MyriadProSemibold'; font-size:14px; color:#613c40 !important; font-weight:normal; background:#ffffff; border:1px solid #9c9c9c; margin-right:10px;/*  -webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;  */
+}
+.sbSelector { width:94px; height:34px; position:absolute; top:0; left:0; display:block; line-height:34px; outline:none; overflow:hidden; text-indent:20px;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover { color:#00f !important; outline:none; text-decoration:none; 
+}
+.sbToggle { width:14px; height:10px; position:absolute; top:14px; right:15px; display:block; outline:none; background:url(../images/arrow-down-1.png) no-repeat; 
+}
+.sbToggle:hover { 
+}
+.sbToggleOpen { 
+}
+.sbToggleOpen:hover { 
+}
+.sbHolderDisabled { background:none; border:none;
+}
+.sbHolderDisabled .sbHolder { 
+}
+.sbHolderDisabled .sbToggle { 
+}
+.sbOptions { width:96px !important; position:absolute; right:-1px !important; top:32px; padding:0; list-style:none; z-index:1; overflow-y:auto; background:#ffffff; border:1px solid #9c9c9c;/*  -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; */ max-height:inherit !important; margin-top: -1px;
+}
+.sbOptions li { padding:0px 0px 0px 0px;
+}
+.sbOptions a { display:block; font-size:14px; font-family: 'MyriadProSemibold'; color:#000000; line-height:16px; outline:none; padding:6px 0px 6px 20px; border-bottom:none; 
+}
+.sbOptions a:link, .sbOptions a:visited { color:#613c40; text-decoration:none;
+}
+.sbOptions a:hover { color:#00f !important;
+}
+.sbOptions li.last a { border-bottom:none;
+}
+.sbOptions .sbDisabled { display:block; color:#484848; padding:0px 0px 0px 0px; border-bottom:none;
+}
+.sbOptions .sbGroup { display:block; color:#484848; font-weight:normal; padding:0px 0px 0px 0px; border-bottom:none;
+}
+.sbOptions .sbSub { padding-left:0px;
+}
+
+/*............................................ End Select Box ....................................*/
+
+
+.requerd .sbHolder { border:1px solid #c83157;}
+.inc-color .sbHolder { border:1px solid #e6e6e6;} 
+
+
+/*............................................ Start Select Box2 ....................................*/
+.stblk_1 .sbHolder { border:1px solid #e6e6e6;} 
+.stblk_1 .sbOptions { width:96px !important; position:absolute; right:0px !important; top:32px; padding:0; list-style:none; z-index:1; overflow-y:auto; background:#ffffff; border:1px solid #f3f3f3; -webkit-border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px; max-height:inherit !important;}
+
+/*............................................ Start Select Box3 ....................................*/
+.set_order-rt .sbHolder { border:1px solid #e6e6e6;width:226px; margin-right:0px;} 
+.set_order-rt .sbOptions { width:226px !important; position:absolute; right:0px !important; top:32px; padding:0; list-style:none; z-index:1; overflow-y:auto; background:#ffffff; border:1px solid #f3f3f3; -webkit-border-radius: 0 0 5px 5px;-moz-border-radius: 0 0 5px 5px;border-radius: 0 0 5px 5px; max-height:inherit !important;}
+.set_order-rt .sbOptions { width:226px !important; position:absolute; right:0px !important; top:32px; padding:0; list-style:none; z-index:1; overflow-y:auto; background:#ffffff; border:1px solid #f3f3f3; -webkit-border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px; max-height:inherit !important;}
+
+.set_order-rt .sbSelector { width:225px; height:34px; position:absolute; top:0; left:0; display:block; line-height:34px; outline:none; overflow:hidden; text-indent:20px;}
+
+
+.set_order-rt2 .sbHolder { border:1px solid #e6e6e6;width:226px;} 
+.set_order-rt2 .sbOptions { width:226px !important; position:absolute; right:0px !important; top:32px; padding:0; list-style:none; z-index:1; overflow-y:auto; background:#ffffff; border:1px solid #f3f3f3; -webkit-border-radius: 0 0 5px 5px;-moz-border-radius: 0 0 5px 5px;border-radius: 0 0 5px 5px; max-height:inherit !important;}
+.set_order-rt2 .sbOptions { width:226px !important; position:absolute; right:0px !important; top:32px; padding:0; list-style:none; z-index:1; overflow-y:auto; background:#ffffff; border:1px solid #f3f3f3; -webkit-border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px; max-height:inherit !important;}
+.set_order-rt2 .sbSelector { width:225px; height:34px; position:absolute; top:0; left:0; display:block; line-height:34px; outline:none; overflow:hidden; text-indent:20px;}
+
+
+.set_order-rt3 .sbHolder { border:1px solid #e6e6e6;width:183px;} 
+.set_order-rt3 .sbOptions { width:183px !important; position:absolute; right:0px !important; top:32px; padding:0; list-style:none; z-index:1; overflow-y:auto; background:#ffffff; border:1px solid #f3f3f3; -webkit-border-radius: 0 0 5px 5px;-moz-border-radius: 0 0 5px 5px;border-radius: 0 0 5px 5px; max-height:inherit !important;}
+.set_order-rt3 .sbOptions { width:183px !important; position:absolute; right:0px !important; top:32px; padding:0; list-style:none; z-index:1; overflow-y:auto; background:#ffffff; border:1px solid #f3f3f3; -webkit-border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px; max-height:inherit !important;}
+.set_order-rt3 .sbSelector { width:180px; height:34px; position:absolute; top:0; left:0; display:block; line-height:34px; outline:none; overflow:hidden; text-indent:20px;}
+
+
+.left_content_blk2.bbq{
+	height: auto;
+}
+
+/*custom style*/
+
+/*FILTER AREA DROP DOWN SELECT BOX*/
+.filterArea .sbHolder, .filterArea .sbSelector{
+	width: 180px !important;
+	height: 35px !important;
+}
+.filterArea .sbHolder{
+	background-color: #ffffff;
+	border-color: #d0d0d0;
+	margin: 0;
+}
+.filterArea .sbSelector:link, .filterArea .sbSelector:visited, .filterArea .sbSelector:hover{
+	color: #252525 !important;
+}
+.filterArea .sbSelector{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	line-height: 32px;
+	text-indent: 18px;
+}
+.filterArea .sbToggle {
+    background: rgba(0, 0, 0, 0) url("images/arrow-down-1.png") no-repeat scroll 0 0;
+    height: 5px;
+    right: 10px;
+    top: 14px;
+    width: 9px;
+}
+.filterArea .sbOptions{
+	width: 180px !important;
+	background-color: #ffffff;
+	border-color: #d0d0d0;
+}
+.filterArea .sbOptions a{
+	color: #252525 !important;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	padding: 6px 10px;
+}
+.filterArea .sbOptions a:hover{
+    color: #47bac1 !important;
+}
+/*QUICK VIEW DROP DOWN SELECT BOX*/
+.quick-drop .sbHolder, .quick-drop .sbSelector{
+	width: 174px !important;
+	height: 39px !important;
+}
+
+.quick-drop .sbHolder{
+	background-color: #ffffff;
+	border-color: #d0d0d0;
+	margin: 0;
+}
+.quick-drop .sbSelector:link, .quick-drop .sbSelector:visited, .quick-drop .sbSelector:hover{
+	color: #797979 !important;
+}
+.quick-drop .sbSelector{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	line-height: 36px;
+	text-indent: 18px;
+}
+.quick-drop .sbToggle {
+    background: rgba(0, 0, 0, 0) url("images/drop-down-arrow.jpg") no-repeat scroll 0 0;
+    height: 6px;
+    right: 10px;
+    top: 16px;
+    width: 9px;
+}
+.quick-drop .sbOptions{
+	width: 174px !important;
+	background-color: #ffffff;
+	border-color: #d0d0d0;
+}
+.quick-drop .sbOptions a{
+	color: #797979 !important;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	padding: 6px 10px;
+}
+.quick-drop .sbOptions a:hover{
+    color: #47bac1 !important;
+}
+.quick-drop.resizeWidth .sbHolder, 
+.quick-drop.resizeWidth .sbSelector, 
+.quick-drop.resizeWidth .sbOptions{
+	width: 87px !important;
+}
+
+/* STEP PAGE DROP DOWN SELECT BOX */
+.step-drop .sbHolder, .step-drop .sbSelector{
+	width: 100% !important;
+	height: 50px !important;
+}
+
+.step-drop .sbHolder{
+	background-color: #f0f0f0;
+	border: none;
+	margin: 0;
+}
+.step-drop .sbSelector:link, .step-drop .sbSelector:visited, .step-drop .sbSelector:hover{
+	color: #797979 !important;
+}
+.step-drop .sbSelector{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	line-height: 47px;
+	text-indent: 18px;
+}
+.step-drop .sbToggle {
+	background: rgba(0, 0, 0, 0) url("images/arrow-down-1.png") no-repeat scroll 0 0;
+	height: 5px;
+	right: 15px;
+	top: 22px;
+	width: 9px;
+}
+.step-drop .sbOptions{
+	width: 100% !important;
+	background-color: #f0f0f0;
+	border-color: #f0f0f0;
+	right: 0 !important;
+}
+.step-drop .sbOptions a{
+	color: #797979 !important;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	padding: 6px 10px;
+}
+.step-drop .sbOptions a:hover{
+    color: #47bac1 !important;
+}
+/*.quick-drop.resizeWidth .sbHolder, 
+.quick-drop.resizeWidth .sbSelector, 
+.quick-drop.resizeWidth .sbOptions{
+	width: 87px !important;
+}*/

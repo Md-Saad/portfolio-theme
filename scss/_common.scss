@@ -1,0 +1,37 @@
+/*=== 1.COMMON ===*/
+
+.container {
+  width: 100%;
+  @include mobile {
+    width: 450px;
+  }
+  @include tablet {
+    width: 750px;
+  }
+  @include desktops {
+    width: 970px;
+  }
+  @include large-desktops {
+    width: 1170px;
+  }
+}
+
+%after-before {
+  content: "";
+  position: absolute;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+section{
+  padding: $padding * 5 0;
+  &:nth-child(even){
+    background-color: $light-bg;
+  }
+}

@@ -1,0 +1,94 @@
+/*=== 5. Button ===*/
+.btn{
+  padding: $padding $padding * 2.5;
+  color:$primary-color;
+  text-transform: uppercase;
+  margin-bottom: $margin + 5;
+  font-size: $font-size + 4;
+  background: transparent;
+  position: relative;
+  @include transition(all 0.5s ease-in-out);
+  @include add-border(2px, $primary-color, all);
+  &:after{
+    @extend %after-before;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 0;
+    @include transition(all 0.3s ease-in-out);
+    background: $primary-color;
+  }
+  &:hover:after{
+     height: 100%;
+     opacity: 1;
+     z-index: -1;
+  }
+  &:hover, &:focus, &:active:hover{
+      color:$text-light;
+      z-index: 1;
+      background: transparent;
+      @include add-border(2px, $primary-color, all);
+  }
+}
+%social-icon{
+  font-size: $font-size * 1.5;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: $margin;
+  text-align: center;
+  @include transition(all 0.3s ease-in-out);
+  @include tablet{
+    margin-right: $margin - 5;
+  }
+}
+.social-icons{
+    position: relative;
+    overflow-y: hidden;
+    margin: $margin * 1.5 0px;
+    padding-top: $padding * 2;
+    @include add-border(1px, $primary-color-light, top);
+    a{
+      @extend %social-icon;
+      &.facebook {
+        color: $facebook-color;
+        @include add-border(1px, $facebook-color, all);
+      }
+      &.twitter {
+        color: $twitter-color;
+        @include add-border(1px, $twitter-color, all);
+      }
+      &.google {
+        color: $google-plus-color;
+        @include add-border(1px, $google-plus-color, all);
+      }
+      &.github {
+        color: $github-color;
+        @include add-border(1px, $github-color, all);
+      }
+      &.behance {
+        color: $behance-color;
+        @include add-border(1px, $behance-color, all);
+      }
+      &.dribble {
+        color: $dribbble-color;
+        @include add-border(1px, $dribbble-color, all);
+      }
+      @include mobile{
+        margin-right: 0;
+      }
+      @include mobile-xs{
+        margin-right: 0;
+      }
+    }
+   li{
+      @include mobile{
+        padding-right: 0;
+      }
+      @include mobile-xs{
+        padding-right: 0;
+      }
+    } 
+}

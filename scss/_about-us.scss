@@ -1,0 +1,18 @@
+/*=== 7. ABOUT US ===*/
+.skill-area{
+    padding: $padding * 5 0;
+    .skill-progress{
+        span{
+            font-size: $font-size + 2;
+            text-transform: uppercase;
+        }
+    }
+}
+.profile-image{
+    @include mobile{
+      margin-bottom: $margin;
+    }
+    @include mobile-xs{
+      margin-bottom: $margin;
+    }
+}

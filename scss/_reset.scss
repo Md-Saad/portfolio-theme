@@ -1,0 +1,83 @@
+* {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 !important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: $text-color;
+  font-weight: 300;
+  background: $dark-bg;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+p {
+  font-size: 16px;
+  color: $text-color;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0;
+  @include mobile-xs{
+    font-size: 14px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: $text-color;
+  margin-top: 0;
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: $padding;
+}
+
+h2 {
+  font-size: $font-size * 2.5;
+}
+
+h3 {
+  font-size: $font-size * 2.25;
+  @include mobile-xs{
+      margin-bottom: $margin;
+    }
+}
+
+h4 {
+  font-size: $font-size + 8;
+  font-weight: 500;
+  @include mobile-xs{
+      font-size: $font-size + 6;
+    }
+}
+
+h5 {
+  font-size: $font-size * 1.5;
+  font-weight: 500;
+}
+
+a {
+  color: $text-link;
+  text-decoration: none !important;
+}
+
+a:hover,
+a:focus {
+  color: $text-link - 50;
+  outline: 0;
+}
