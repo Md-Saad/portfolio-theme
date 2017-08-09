@@ -1,4 +1,4 @@
 # portfolio-theme
 A complete one page theme for portfolio.
 Used Sass as a preproccesor.
-<a href="http://www.quora.com/Adam-DAngelo">Quora profile link for Adam D'Angelo</a>
+Watch the site live: <a href="https://md-saad.github.io/portfolio-theme/">Portfolio Theme</a>
