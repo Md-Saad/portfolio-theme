@@ -176,12 +176,22 @@ section:nth-child(even) {
     background-color: #1a1a1a;
   }
 }
+.navbar-main .navbar-brand {
+  float: left;
+  height: auto;
+  padding: 5px 15px;
+}
+.navbar-main .navbar-brand img {
+  height: 50px;
+}
 .navbar-main .navbar-nav li a {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
   position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -240,7 +250,7 @@ footer p {
 
 /*=== 2.3 BANNER ===*/
 .banner-area {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/banner/banner.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -544,7 +554,7 @@ footer p {
 
 .counter-area {
   padding: 100px 0;
-  background: url("../images/project-counter.jpg");
+  background: url("../images/banner/project-counter.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -715,7 +725,7 @@ footer p {
   background-size: cover;
   background-position: center center;
   height: auto;
-  background: url("../images/testimonial.png");
+  background: url("../images/banner/testimonial.png");
   position: relative;
 }
 .testimonial-area img {
