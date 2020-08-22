@@ -31,7 +31,7 @@ $(document).ready(function () {
     scrollSpeed: 700
   });
 
-  $('.navbar-nav li a').click(function (event) {
+  $('.navbar-nav li a, .navbar-brand').click(function (event) {
     event.preventDefault();
     var link = this;
     $.smoothScroll({
